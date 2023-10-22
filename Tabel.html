@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Tabel.html">List</a></li>
+                    <li><a href="Formulir.html">Contact</a></li>
+                </ul>      
+            </nav>
+        </div>
+    <h2>Daftar Mahasiswa</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Program Studi</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Jenis Kelamin</th>
+                <th>Tanggal Lahir</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marchell Aly Kumala</td>
+                <td>121140145</td>
+                <td>Informatika</td>
+                <td>marchell.121140145@student.itera.ac.id</td>
+                <td>HTMLMAOMOMENT</td>
+                <td>Laki-laki</td>
+                <td>2003-08-28</td>
+                <td>Jl. Contoh No. 123</td>
+            </tr>
+            <tr>
+                <td>M. Atha Akbar</td>
+                <td>121140123</td>
+                <td>Informatika</td>
+                <td>muhamad.121140123@student.itera.ac.id</td>
+                <td>kuntibogel</td>
+                <td>Laki-laki</td>
+                <td>2003-08-28</td>
+                <td>Jl. Model No. 456</td>
+            </tr>
+            <tr>
+                <td>Yusup Pandu P.W</td>
+                <td>121140124</td>
+                <td>Bisnis</td>
+                <td>yusup.121140124@student.itera.ac.id</td>
+                <td>Lmaolmao</td>
+                <td>Laki-laki</td>
+                <td>1988-11-22</td>
+                <td>Jl. Sample No. 789</td>
+            </tr>
+            <tr>
+                <td>Vania Angelica</td>
+                <td>121140053</td>
+                <td>Kedokteran</td>
+                <td>vania.121140054@student.itera.ac.id</td>
+                <td>Tifosi</td>
+                <td>Perempuan</td>
+                <td>2003-06-19</td>
+                <td>Jl. Dummy No. 321</td>
+            </tr>
+            <tr>
+                <td>Natasya Ate Malem Bangun/td>
+                <td>121140052</td>
+                <td>Filsafat</td>
+                <td>Natasya.121140054@student.itera.ac.id</td>
+                <td>OrangKECE</td>
+                <td>Laki-laki</td>
+                <td>2004-06-20</td>
+                <td>Jl. Test No. 654</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
